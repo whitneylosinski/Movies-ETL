@@ -1,4 +1,4 @@
-Resources/ratings.csv
-Resources/movies_metadata.csv
+movies_metadata.csv
+ratings.csv
 __pycache__/config.cpython-38.pyc
 config.py
