@@ -283,7 +283,7 @@ The analysis to extract, transform and load the dataset was completed in four ma
 	```
 
    Finally, when the function is called using the thee arguments `wiki_movies_df`, `kaggle_metadata` and `ratings`, the database is created.  A simple SQL query shows how many rows were created for each table.  See below.
-	| | |
+	| Number of Rows in movies dataset | Number of rows in ratings dataset |
 	|-----|-----|
 	|![movies_query](Resources/movies_query.png)|![ratings_query](Resources/ratings_query.png)|
 
