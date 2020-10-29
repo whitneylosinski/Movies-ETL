@@ -282,5 +282,10 @@ The analysis to extract, transform and load the dataset was completed in four ma
     	return wiki_movies_df, kaggle_metadata, ratings 
 	```
 
+   Finally, when the function is called using the thee arguments `wiki_movies_df`, `kaggle_metadata` and `ratings`, the database is created.  A simple SQL query shows how many rows were created for each table.  See below.
+	| | |
+	|-----|-----|
+	|![movies_query](Resources/movies_query.png)|![ratings_query](Resources/ratings_query.png)|
+
 ## Summary
 The process of extracting and cleaning the data was messy and required a lot of behind the scenes work before refactoring the code to run in one function which can be used to update the dataset on a daily basis.  The thought process that went into filtering the data, determining which data to keep and which data to remove can be found in the Movies-ETL Lesson.ipynb file in the repository.  This file shows lists of column names, scatter plot comparisons of data, strings that weren't able to be parsed using the regular expressions, etc.  There are definitely things that could be done to clean the data more throroughly but the decision was made that the limited added value was not worth the time required.  The dataset created is sufficient for the needs of the Amazing Prime hackathon.
